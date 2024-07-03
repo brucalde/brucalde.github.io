@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="hero">
+        <nav class="nav container">      
+
+            <ul class="nav__link nav__link--menu">
+                
+                <li class="nav__items">
+                    <a href="#sobremi__body" class="nav__links">Sobre mi</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#hablidades" class="nav__links">Habilidades</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#portfolio__fondo" class="nav__links">Proyectos </a>
+                </li>
+                <li class="nav__items">
+                    <a href="#cont__contacto" class="nav__links">Contacto </a>
+                </li>
+    
+                <img src="/public/close.svg" alt="cerrar" class="nav__close">
+    
+    
+            </ul>
+    
+            <div class="nav__menu">
+                <img src="/public/menu.svg" alt="menu" class="nav__img">
+            </div>
+
+        </nav>
+        <section class="hero__container container">
+            <h1 class="hero__title"> Bruno Calderón</h1>
+            <div class="cont__inline">
+                 <p>Sean </p> 
+                 <p><span class="typed"></span></p> 
+            </div>  
+             
+            <p class="hero__paragraph"> Acá podrás ver mis proyectos, trabajos realizados y servicios en los que me especializo. <br>
+
+    
+            </p> 
+            
+            
+    
+        </section>
+    
+    </header>
+
+    <div id="sobremi__body">
+        <section id="sobremi">
+            <div class="contenedor-foto">
+                <img src="/public/fotoCV.jpeg" alt="Imagen-mia">
+            </div>
+        
+            <div class="sobremi">
+                <p class="titulo-seccion">SOBRE MI</p>
+                
+                <h3>Desarrollador Web</h3>
+                <p class="txt__sobremi"> Mi nombre es Bruno, tengo 26 años. Mi enfoque principal es asegurarme de que mis
+                proyectos sean fáciles de usar, estén bien optimizados y tengan un atractivo diseño. <br> Me considero apasionado por la programación, ya que considero que a través de ésta se pueden crear e indagar en amplios temas. <br><br> Puedo realizar el proyecto desde la parte visual hasta las bases de backend, para que directamente lo desplegues en tu hosting, entregandote un proyecto completo, escalable y funcional. <br><br>Espero conocernos pronto ! Saludos.  </p>
+                <a href="#"> Descargar CV</a>
+            </div>
+        </section>
+    </div>
+
+    <section id="hablidades">
+        <div class="titulo-seccion-tec">
+            <p>TECNOLOGIAS</p>
+        </div>
+        <div class="cont__tecno">
+            <div class="cont__simbolos">
+                <img src="./public/hab-icons/JS-icon.svg" alt="">
+                <p>JavaScript</p>
+            </div>
+            <div class="cont__simbolos">
+                <img src="./public/hab-icons/NODE-icon.svg" alt="">
+                <p>Nodejs</p>
+            </div>
+            <div class="cont__simbolos">
+                <img src="./public/hab-icons/SQL-icon.svg" alt="">
+                <p>MYsql</p>
+            </div>
+            <div class="cont__simbolos">
+                <img src="./public/hab-icons/HTML-icon.svg" alt="">
+                <p>HTML</p>
+            </div>
+            <div class="cont__simbolos">
+                <img src="./public/hab-icons/CSS-icon.svg" alt="">
+                <p>CSS</p>
+            </div>
+        </div>
+    </section>
+
+    <div id="portfolio__fondo">
+    <section id="portfolio">
+        <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="http://fundacionagustina.org" target="_blank" class="ref">
+                <img src="/public/Captura-Fundacion.png" alt="imagenDeProyecto">
+                <div class="info">
+                    <h4>Fundacionagustina.org</h4>
+                    <p> Pagina web realizada a una ONG de Mendoza, Argentina. <br> Relizada con HTML, CSS y JAVASCRIPT. Responsive </p>
+                </div>
+                </a>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://github.com/brucalde/API-REST-Inmobiliaria" target="_blank" class="ref">
+                    <img src="/public/API-REST-Inmobiliaria-min.png" alt="imagenDeProyecto">
+                        <div class="info">
+                            <h4>API-REST con Base de datos</h4>
+                            <p> Proyecto con acceso a administrador, que permite modificar, agregar o eliminar fotos y anuncios de la página. <br> Encriptacion de contraseñas, EJS y MULTER. </p>
+                        </div>
+                </a>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://github.com/brucalde/Proyecto-API-Gimnasio" target="_blank" class="ref">
+                    <img src="/public/API-REST-Gimnasio-min.png" alt="imagenDeProyecto">
+                    <div class="info">
+                        <h4>Proyecto con Base de Datos </h4>
+                        <p> Aplicación que permite incribirse como alumno, y desde administrador ver, agregar, eliminar alumnos. <br> Encriptacion de contraseñas, MYsql , EJS y AJAX. </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="fila esp">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://github.com/brucalde/Music-Landing" target="_blank" class="ref">
+                    <img src="/public/Landing-Musica-min.png" alt="imagenDeProyecto">
+                    <div class="info">
+                        <h4>Landing page Instrumentos</h4>
+                        <p> Creada con HTML y CSS.</p>
+                    </div>
+                </a>
+            </div>
+            
+        </div>
+    </section>
+    </div>
+
+    <section id="cont__contacto">
+        <div class="cont__title__contacto">
+            <h3 class="title__contacto">CONTACTO</h3>
+        </div>
+        <div class="divisor__justify">
+            <div>
+                <img src="/public/icons/gmail.svg" alt="">
+                <p>Gmail : <span class="data__esp">brucalde@gmail.com</span></p>
+            </div>
+            <div>
+                <img src="/public/icons/whatsapp.svg" alt="">
+                <p>Telefono : <span class="data__esp">+54 261 7 602028</span></p>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        
+    </footer>
+
+
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="script.js"></script>
+
+
+</body>
+</html>
+
