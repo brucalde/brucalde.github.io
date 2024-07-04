@@ -129,11 +129,17 @@ body {
     display: flex;
     margin-top: -25px;
     margin-left: 32%;
+    padding: 5px;
 }
 
-.cont__inline p{
+.cont__inline i{
     padding: 5px;
     font-size: 2rem;
+    margin-top: 10px;
+}
+
+.cont__bienv{
+    height: 20px;
 }
 
 .hero__paragraph {
@@ -151,6 +157,7 @@ body {
 
 #sobremi__body{
     width: 100%;
+    margin-top: -1%;
     background-image: url("/public/Pagina2.png");
         background-size: cover;
         z-index: -1;
@@ -350,6 +357,10 @@ body {
     font-size: 14px;
 }
 
+.aclaracion{
+    display: none;
+}
+
 /* ----------- Contacto ----------- */
 
 .cont__contacto{
@@ -449,6 +460,14 @@ footer div p{
         font-size: 2.5rem;
     }
 
+    .cont__inline{
+        margin-left: 12%;
+    }
+
+    #sobremi__body{
+        margin-top: -2%;
+    }
+
     #sobremi {
         padding: 50px 0;
         display: block;
@@ -471,8 +490,22 @@ footer div p{
     #sobremi .sobremi h3{
         color: #412554;
     }
+    /* Habilidades */
+
+    .titulo-seccion-tec{
+        margin-left: 35%;
+    }
 
     /* PROYECTOS */
+
+    .aclaracion{
+        display: block;
+        color: #a0a0a0;
+        font-size: 14px;
+        margin: auto;
+        text-align: center;
+        width: 85%;
+    }
 
     #portfolio .fila{
         display: block;
@@ -481,6 +514,11 @@ footer div p{
 
     #portfolio .fila .proyecto{
         margin-top: 5%;
+        width: 85%;
+    }
+
+    #portfolio .fila .proyecto .ref img{
+        width: 100%;
     }
 
     #portfolio .titulo-seccion{
