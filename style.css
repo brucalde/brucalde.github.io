@@ -45,6 +45,27 @@ body {
 
 }
 
+/*  */
+
+.cont__wsp{
+    position: fixed;
+    right: 13px;
+    bottom: 13px;
+    
+}
+
+.cont__logo{
+    width: 50px;
+    background-color: #23c25d;
+    border-radius: 50px;
+}
+
+.img__wsp{
+    width: 45px;
+    margin-left: 7%;
+    margin-top: 3%;
+}
+
 /* NAV */
 
 
@@ -460,9 +481,22 @@ footer div p{
         font-size: 2.5rem;
     }
 
+
     .cont__inline{
         margin-left: 12%;
     }
+
+    /*  */
+
+        .cont__logo {
+            width: 40px;
+        }
+    
+        .img__wsp {
+            width: 35px;
+        }
+
+    /*  */
 
     #sobremi__body{
         margin-top: -2%;
